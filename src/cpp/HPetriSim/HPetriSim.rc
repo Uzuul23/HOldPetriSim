@@ -81,8 +81,6 @@ IDR_HPSTYPE             ICON                    "res\\HPetriSim.ico"
 // Bitmap
 //
 
-IDB_SPLASH              BITMAP                  "Splsh16.bmp"
-
 IDB_AUTOPAN             BITMAP                  "res\\autopan.bmp"
 
 IDB_PLACE_25            BITMAP                  "res\\edit\\place_0.bmp"
@@ -391,18 +389,19 @@ END
 // Dialog
 //
 
-IDD_ABOUTBOX DIALOG 0, 0, 180, 242
+IDD_ABOUTBOX DIALOGEX 0, 0, 271, 141
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "About HPetriSim"
-FONT 8, "MS Sans Serif"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
-    DEFPUSHBUTTON   "&OK",IDOK,122,221,51,14,WS_GROUP
-    GROUPBOX        "Memory Usage",IDC_STATIC,7,138,166,55
-    LTEXT           "mailto:",IDC_HYPERLINK,16,126,147,8
-    EDITTEXT        IDC_EDIT_MEM,13,149,155,38,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
-    EDITTEXT        IDC_EDIT_ABOUT,7,7,166,113,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
-    LTEXT           "123-4567890-123",IDC_STATIC_SERIAL,60,206,61,9
-    GROUPBOX        "License Number",IDC_STATIC,7,196,166,22
+    DEFPUSHBUTTON   "&OK",IDOK,213,120,51,14,WS_GROUP
+    LTEXT           "Author",IDC_STATIC_AUTHOR,42,10,167,11
+    LTEXT           "Software",IDC_STATIC_SOFTWARE,42,26,167,11
+    PUSHBUTTON      "MAILTO",IDC_BUTTON_MAILTO,42,42,167,15
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,21,20
+    LTEXT           "License",IDC_STATIC_COPYRIGHT,42,82,167,11
+    PUSHBUTTON      "URL",IDC_BUTTON_URL,42,62,167,15
+    PUSHBUTTON      "LIC_URL",IDC_BUTTON_LIC_URL,42,98,167,15
 END
 
 IDD_SYM_LOG_DIALOG DIALOG 0, 0, 114, 146
@@ -609,9 +608,9 @@ BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
         LEFTMARGIN, 7
-        RIGHTMARGIN, 173
+        RIGHTMARGIN, 264
         TOPMARGIN, 7
-        BOTTOMMARGIN, 235
+        BOTTOMMARGIN, 134
     END
 
     IDD_SYM_LOG_DIALOG, DIALOG
@@ -741,6 +740,17 @@ IDC_PAN_UP              CURSOR                  "res\\pan.up.cur"
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // String Table
 //
 
@@ -864,9 +874,8 @@ END
 STRINGTABLE
 BEGIN
     IDS_LIMIT_TEXT          "Count of Objects\r\nin a Document : 64k."
-    IDS_ABOUT_TEXT          "HPSim Version: 1.1 (64k)\r\n\r\nDo NOT distribute this Version!\r\nEither commercial use or distribution or \r\ncompilation in any sense of this software\r\nor parts of it is NOT permitted without the\r\nprior written consent of the author.\r\nThe software is provided 'as is'. \r\nNo warranty is granted to mentioned\r\nfeatures. The author disclaims any liability\r\nfor damages caused to man and/or machine by\r\nthe use of this software. The installation\r\nand the use of this software is on the\r\nuser’s risk.\r\n\r\nPlease feel free to submit suggestions for \r\nimprovement and/or bug-reports to the author\r\nby email. As well as donations are welcome\r\nif you found this software to any good -\r\nto support the authorkeeping on the work\r\non this project.\r\n\r\nCopyright (C) 1999 - 2001 Henryk Anschuetz\r\n\r\ngrateful acknowledgement goes to:\r\nRené Höpfner for English translation\r\n"
     IDS_MEM_TEXT            "Phys.Memory\t\t%d KB\r\nMemory Load\t\t%d %%\r\nPhys.Memory Free\t\t%d KB\r\nPage File\t\t\t%d KB\r\nPage File Free\t\t%d KB\r\nTotal Virtual Mem\t\t%d KB\r\nTotal Virtual Mem Free\t%d KB"
-    IDS_EMAIL               "mailto:henryk.a@t-online.de"
+    IDS_MAILTO              "Uzuul23@online.de "
     IDS_ABOUT_LIMIT         "\r\nThis unlimited Version is licensed for:\r\n"
 END
 
@@ -898,6 +907,10 @@ BEGIN
     CG_IDS_PHYSICAL_MEM     "%lu KB"
     CG_IDS_DISK_SPACE       "Drive:%c:\\   %lu KB Free"
     CG_IDS_DISK_SPACE_UNAVAIL "Unavailable"
+    IDS_AUTHOR              "Henryk Anschuetz"
+    IDS_SOFTWARE            "Old HPetriSim (HPSim) 1.0"
+    IDS_COPYRIGHT           "GNU General Public License v3.0"
+    IDS_URL                 "github.com/Uzuul23/HOldPetriSim"
 END
 
 STRINGTABLE
@@ -923,6 +936,7 @@ STRINGTABLE
 BEGIN
     IDS_PROPSHT_CAPTION1    "Editor Properties"
     CG_IDD_MYDIALOGBAR      "Toggle the Project Explorer on/off\nToggle Project Explorer"
+    IDS_LIC_URL             "gnu.org/licenses/gpl-3.0.html"
     CG_IDS_PROGRESS_CAPTION "Working"
     ID_INDICATOR_STEPTIME   "S. 999 /999 ms"
     ID_INDICATOR_SIMSTATUS  "Running..."

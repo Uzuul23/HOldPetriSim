@@ -13,7 +13,6 @@
 #include "PetriSimDoc.h"
 #include "PetriSimView.h"
 #include "MainFrm.h"
-#include "Splash.h"
 #include <direct.h>
 
 #ifdef _DEBUG
@@ -110,10 +109,7 @@ BOOL CPetriSimApp::InitInstance()
 
 BOOL CPetriSimApp::PreTranslateMessage(MSG* pMsg)
 {
-	if (CSplashWnd::PreTranslateAppMessage(pMsg))
-		return TRUE;  
-
-	return CWinAppEx::PreTranslateMessage(pMsg);
+	return __super::PreTranslateMessage(pMsg);
 }
 
 /*************************************************************************/
@@ -126,10 +122,12 @@ public:
 	CAboutDlg();
 
 	enum { IDD = IDD_ABOUTBOX };
-	// TODO: CHyperLink	m_HyperLink;
-	CString	m_strAboutText;
-	CString m_strMemText;
-	CString	m_strSerial;
+	CMFCLinkCtrl m_url;
+	CMFCLinkCtrl m_lic_url;
+	CMFCLinkCtrl m_mailto;
+	CString m_strAuthor;
+	CString m_strSoftware;
+	CString m_strCopyright;
 	
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);
@@ -142,17 +140,18 @@ protected:
 
 CAboutDlg::CAboutDlg() : CDialog(CAboutDlg::IDD)
 {
-	m_strSerial = _T("");
+	
 }
 
 void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialog::DoDataExchange(pDX);
-
-//	DDX_Control(pDX, IDC_HYPERLINK, m_HyperLink);
-	DDX_Text(pDX, IDC_EDIT_ABOUT, m_strAboutText);
-	DDX_Text(pDX, IDC_EDIT_MEM, m_strMemText);
-	DDX_Text(pDX, IDC_STATIC_SERIAL, m_strSerial);
+	DDX_Text(pDX, IDC_STATIC_AUTHOR, m_strAuthor);
+	DDX_Text(pDX, IDC_STATIC_SOFTWARE, m_strSoftware);
+	DDX_Text(pDX, IDC_STATIC_COPYRIGHT, m_strCopyright);
+	DDX_Control(pDX, IDC_BUTTON_MAILTO, m_mailto);
+	DDX_Control(pDX, IDC_BUTTON_URL, m_url);
+	DDX_Control(pDX, IDC_BUTTON_LIC_URL, m_lic_url);
 }
 
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialog)
@@ -168,39 +167,29 @@ BOOL CAboutDlg::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 
-	CString strMail;
-	strMail.LoadString(IDS_EMAIL);
-	//m_HyperLink.SetWindowText(strMail);
-	//m_HyperLink.SetURL(strMail);
-	//m_HyperLink.SetUnderline(TRUE);
+	m_strAuthor.LoadString(IDS_AUTHOR);
+	m_strSoftware.LoadString(IDS_SOFTWARE);
+	m_strCopyright.LoadString(IDS_COPYRIGHT);
+
+	CString str;
+	str.LoadString(IDS_MAILTO);
+	m_mailto.SetURLPrefix(L"mailto:");
+	m_mailto.SetWindowText(str);
+	m_mailto.SetURL(str);
+	m_mailto.SizeToContent();
+
+	str.LoadString(IDS_URL);
+	m_url.SetURLPrefix(L"http://");
+	m_url.SetWindowText(str);
+	m_url.SetURL(str);
+	m_url.SizeToContent();
+
+	str.LoadString(IDS_LIC_URL);
+	m_lic_url.SetURLPrefix(L"http://");
+	m_lic_url.SetWindowText(str);
+	m_lic_url.SetURL(str);
+	m_lic_url.SizeToContent();
 	
-	m_strAboutText.LoadString(IDS_ABOUT_TEXT);
-	//CString strLimits;
-	//strLimits.LoadString(IDS_ABOUT_LIMIT);
-	//m_strAboutText += strLimits;
-	//m_strAboutText += theApp.m_strOwner;
-	m_strSerial = "Free Version";
-	
-	{
-		CString strFreeDiskSpace;
-		CString strFmt;
-
-		MEMORYSTATUS MemStat;
-		MemStat.dwLength = sizeof(MEMORYSTATUS);
-		GlobalMemoryStatus(&MemStat);
-
-		CString strMemFormat;
-		strMemFormat.LoadString(IDS_MEM_TEXT);
-		m_strMemText.Format(strMemFormat,
-			MemStat.dwTotalPhys / 1024L,
-			MemStat.dwMemoryLoad,
-			MemStat.dwAvailPhys / 1024L,
-			MemStat.dwTotalPageFile / 1024L,
-			MemStat.dwAvailPageFile / 1024L,
-			MemStat.dwTotalVirtual / 1024L,
-			MemStat.dwAvailVirtual / 1024L);
-
-	}
 	UpdateData(false);
 	return TRUE;
 }

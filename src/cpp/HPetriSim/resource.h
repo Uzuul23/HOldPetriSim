@@ -1,20 +1,24 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ generated include file.
-// Used by HPetriSim.rc
+// Von Microsoft Visual C++ generierte Includedatei.
+// Verwendet durch HPetriSim.rc
 //
 #define IDD_ABOUTBOX                    100
-#define IDB_SPLASH                      102
 #define CG_IDS_CANNOT_OPEN_CLIPBOARD    103
 #define CG_IDS_CANNOT_GET_CLIPBOARD_DATA 104
 #define CG_IDS_PHYSICAL_MEM             105
 #define CG_IDS_DISK_SPACE               106
 #define CG_IDS_DISK_SPACE_UNAVAIL       107
+#define IDS_AUTHOR                      108
 #define IDD_PROPPAGE1                   109
+#define IDS_SOFTWARE                    109
 #define IDD_PROPPAGE2                   110
+#define IDS_COPYRIGHT                   110
 #define IDD_PROPPAGE3                   111
+#define IDS_URL                         111
 #define IDS_PROPSHT_CAPTION1            112
 #define CG_ID_VIEW_MYDIALOGBAR          116
 #define CG_IDD_MYDIALOGBAR              117
+#define IDS_LIC_URL                     118
 #define CG_IDS_PROGRESS_CAPTION         120
 #define CG_IDD_PROGRESS                 121
 #define ID_INDICATOR_STEPTIME           125
@@ -73,6 +77,7 @@
 #define IDS_ABOUT_TEXT                  183
 #define IDS_MEM_TEXT                    184
 #define IDS_EMAIL                       185
+#define IDS_MAILTO                      185
 #define IDS_ABOUT_LIMIT                 186
 #define IDS_SERIAL_NUMBER               187
 #define IDS_FILE_CHECKSUM               188
@@ -161,6 +166,13 @@
 #define IDC_CHECK_POPEXPLORER           1076
 #define IDC_HYPERLINK                   1076
 #define IDC_STATIC_SERIAL               1077
+#define IDC_STATIC_AUTHOR               1078
+#define IDC_STATIC_SOFTWARE             1079
+#define IDC_BUTTON_MAILTO               1080
+#define IDC_STATIC_COPYRIGHT            1081
+#define IDC_BUTTON_URL                  1082
+#define IDC_BUTTON_URL2                 1083
+#define IDC_BUTTON_LIC_URL              1083
 #define ID_RECT_MODE                    32774
 #define ID_LINE_MODE                    32775
 #define ID_SELECT_MODE                  32776
@@ -238,9 +250,9 @@
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
-#define _APS_NEXT_RESOURCE_VALUE        208
+#define _APS_NEXT_RESOURCE_VALUE        209
 #define _APS_NEXT_COMMAND_VALUE         32880
-#define _APS_NEXT_CONTROL_VALUE         1078
+#define _APS_NEXT_CONTROL_VALUE         1081
 #define _APS_NEXT_SYMED_VALUE           478
 #endif
 #endif

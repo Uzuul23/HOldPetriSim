@@ -12,7 +12,6 @@
 #include "PetriSimDoc.h"
 #include "HSimToolbar.h"
 #include "MainFrm.h"
-#include "Splash.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

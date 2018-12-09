@@ -114,9 +114,6 @@
     <ClInclude Include="src\cpp\HPetriSim\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\cpp\HPetriSim\Splash.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\cpp\HPetriSim\StdAfx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -360,9 +357,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\cpp\HPetriSim\PropertiesWnd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\HPetriSim\Splash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\cpp\HPetriSim\StdAfx.cpp">

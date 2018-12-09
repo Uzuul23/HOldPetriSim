@@ -45,7 +45,6 @@
     <ClInclude Include="src\cpp\HPetriSim\ProgressBar.h" />
     <ClInclude Include="src\cpp\HPetriSim\PropertiesWnd.h" />
     <ClInclude Include="src\cpp\HPetriSim\resource.h" />
-    <ClInclude Include="src\cpp\HPetriSim\Splash.h" />
     <ClInclude Include="src\cpp\HPetriSim\StdAfx.h" />
     <ClInclude Include="src\cpp\HPetriSim\targetver.h" />
     <ClInclude Include="src\cpp\HPetriSim\TitleTip.h" />
@@ -134,7 +133,6 @@
     <ClCompile Include="src\cpp\HPetriSim\ProgDlg1.cpp" />
     <ClCompile Include="src\cpp\HPetriSim\ProgressBar.cpp" />
     <ClCompile Include="src\cpp\HPetriSim\PropertiesWnd.cpp" />
-    <ClCompile Include="src\cpp\HPetriSim\Splash.cpp" />
     <ClCompile Include="src\cpp\HPetriSim\StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -158,6 +156,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v141</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">

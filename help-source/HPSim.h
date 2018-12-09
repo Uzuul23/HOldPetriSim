@@ -1,0 +1,1 @@
+#define Allgemein 1

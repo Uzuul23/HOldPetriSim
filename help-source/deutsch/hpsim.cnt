@@ -1,0 +1,55 @@
+:Base HPSim.hlp>Main
+:Title HPSim
+:Index HPSim=HPSim.hlp
+1 HPSim
+2 Version=Version
+2 Programmbeschreibung=Programmbeschreibung
+2 Installation=Installation
+2 Starten von HPSim=StartenvonHPSim
+2 Allgemein=Allgemein
+2 Info=Info
+2 Neues Dokument=NeuesDokument
+2 Laden und Speichern=LadenundSpeichern
+2 Export Import=ExportImport
+2 Anwendung beenden=Anwendungbeenden
+2 Dokument Eigenschaften=DokumentEigenschaften
+2 Ansicht=Ansicht
+2 Fensterteiler=Fensterteiler
+2 Zoomfunktion=Zoomfunktion
+2 Werkzeugleisten=Werkzeugleisten
+2 Kontextmenü=Kontextmenü
+2 Projekt Explorer=ProjektExplorer
+2 Statusleiste=Statusleiste
+2 Ein graphisches Objekt erstellen=EingraphischesObjekterstellen
+2 Die Eigenschaften eines Objektes Ändern=DieEigenschafteneinesObjektesÄndern
+2 Ein oder mehrere Objekte zur Bearbeitung Auswählen=EinodermehrereObjektezurBearbeitungAuswä
+2 Passive graphische Objekte=PassivegraphischeObjekte
+2 Linie=Linie
+2 Rechteck=Rechteck
+2 Polygon=Polygon
+2 Text=Text
+2 Label=Label
+2 Aktive graphische Objekte=AktivegraphischeObjekte
+2 Platz=Platz
+2 Transition=Transition
+2 Kante=Kante
+2 Löschen graphischer Objekte=LöschengraphischerObjekte
+2 Gruppieren=Gruppieren
+2 Zwischenablage=Zwischenablage
+2 Maskieren=Maskieren
+2 Drucken=Drucken
+2 Simulation Starten=SimulationStarten
+2 Rücksetzen der Simulation=RücksetzenderSimulation
+2 Ausgabedatei Aktivieren=AusgabedateiAktivieren
+2 Simulation Einzelschritt=SimulationEinzelschritt
+2 Simulation Lauf=SimulationLauf
+2 Simulation Schnell Lauf=SimulationSchnellLauf
+2 Simulation Pause=SimulationPause
+2 Simulation Ausgabefenster=SimulationAusgabefenster
+1 Erste Schritte
+2 Erste Schritte=ErsteSchritte
+2 Schritt 1: Dokument Eigenschaften=Schritt1DokumentEigenschaften
+2 Schritt2: Netz entwerfen=Schritt2Netzentwerfen
+2 Schritt3: Eigenschaften der Netz Objekte=Schritt3EigenschaftenderNetzObjekte
+2 Schritt4: Illustrieren und Beschreiben=Schritt4IllustrierenundBeschreiben
+2 Schritt5: Simulation=Schritt5Simulation

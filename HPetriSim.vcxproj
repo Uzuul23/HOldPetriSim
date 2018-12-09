@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cpp\3rd-party\CDIB.H" />
+    <ClInclude Include="src\cpp\3rd-party\MemDC.h" />
+    <ClInclude Include="src\cpp\3rd-party\mfxWhlPan.h" />
+    <ClInclude Include="src\cpp\HPetriSim\ChildFrm.h" />
+    <ClInclude Include="src\cpp\HPetriSim\DocPropertyPageA.h" />
+    <ClInclude Include="src\cpp\HPetriSim\DocPropertySheetA.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HConst.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HDrawObject.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HErrorFile.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HFontDialog.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HLabelDialog.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HLineBuffer.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HPositionDialog.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HRandom.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HResHolder.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HSimToolbar.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HSymDialog.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HSymStateFormView.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HTextDialog.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HThread.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HTransitionDialog.h" />
+    <ClInclude Include="src\cpp\HPetriSim\HZoom.h" />
+    <ClInclude Include="src\cpp\HPetriSim\IniSection.h" />
+    <ClInclude Include="src\cpp\HPetriSim\LimitDialog.h" />
+    <ClInclude Include="src\cpp\HPetriSim\MainFrm.h" />
+    <ClInclude Include="src\cpp\HPetriSim\OutputWnd.h" />
+    <ClInclude Include="src\cpp\HPetriSim\PetriSim.h" />
+    <ClInclude Include="src\cpp\HPetriSim\PetriSimDoc.h" />
+    <ClInclude Include="src\cpp\HPetriSim\PetriSimView.h" />
+    <ClInclude Include="src\cpp\HPetriSim\PreviewWnd.h" />
+    <ClInclude Include="src\cpp\HPetriSim\ProgDlg1.h" />
+    <ClInclude Include="src\cpp\HPetriSim\ProgressBar.h" />
+    <ClInclude Include="src\cpp\HPetriSim\PropertiesWnd.h" />
+    <ClInclude Include="src\cpp\HPetriSim\resource.h" />
+    <ClInclude Include="src\cpp\HPetriSim\Splash.h" />
+    <ClInclude Include="src\cpp\HPetriSim\StdAfx.h" />
+    <ClInclude Include="src\cpp\HPetriSim\targetver.h" />
+    <ClInclude Include="src\cpp\HPetriSim\TitleTip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\cpp\HPetriSim\HPetriSim.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\cpp\HPetriSim\HPetriSim.ico" />
+    <Image Include="src\cpp\HPetriSim\res\autopan.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\editbar.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\editbar256.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\edit\bmp00001.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\edit\place_0.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\edit\place_20.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\edit\place_35.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\edit\place_50.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\HPetriSim.ico" />
+    <Image Include="src\cpp\HPetriSim\res\HPetriSimDoc.ico" />
+    <Image Include="src\cpp\HPetriSim\res\idr_hpst.ico" />
+    <Image Include="src\cpp\HPetriSim\res\place_0.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\place_26.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\simbar.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\simbar256.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\toolbar.bmp" />
+    <Image Include="src\cpp\HPetriSim\res\toolbar256.bmp" />
+    <Image Include="src\cpp\HPetriSim\Splsh16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\cpp\HPetriSim\res\cur00001.cur" />
+    <None Include="src\cpp\HPetriSim\res\cur00002.cur" />
+    <None Include="src\cpp\HPetriSim\res\cur00003.cur" />
+    <None Include="src\cpp\HPetriSim\res\cur00004.cur" />
+    <None Include="src\cpp\HPetriSim\res\cur00005.cur" />
+    <None Include="src\cpp\HPetriSim\res\cur00006.cur" />
+    <None Include="src\cpp\HPetriSim\res\hpetrisim.rc2" />
+    <None Include="src\cpp\HPetriSim\res\line_cur.cur" />
+    <None Include="src\cpp\HPetriSim\res\pan.up.cur" />
+    <None Include="src\cpp\HPetriSim\res\pan_all.cur" />
+    <None Include="src\cpp\HPetriSim\res\pan_down.cur" />
+    <None Include="src\cpp\HPetriSim\res\pan_left.cur" />
+    <None Include="src\cpp\HPetriSim\res\pan_right.cur" />
+    <None Include="src\cpp\HPetriSim\res\position.cur" />
+    <None Include="src\cpp\HPetriSim\res\transiti.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpp\3rd-party\CDIB.CPP" />
+    <ClCompile Include="src\cpp\3rd-party\mfxWhlPan.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\ChildFrm.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\DocPropertyPageA.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\DocPropertySheetA.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HConnector.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HDrawObject.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HErrorFile.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HFontDialog.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HGroup.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HLabel.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HLabelDialog.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HLine.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HLineBuffer.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HNetMember.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HPetriMember.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HPetriModul.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HPolyLine.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HPosition.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HPositionDialog.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HRect.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HResHolder.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HSimToolbar.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HSymDialog.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HSymStateFormView.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HText.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HTextDialog.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HThread.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HTransition.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HTransitionDialog.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\HZoom.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\IniSection.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\LimitDialog.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\MainFrm.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\OutputWnd.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\PetriSim.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\PetriSimDoc.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\PetriSimView.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\PreviewWnd.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\ProgDlg1.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\ProgressBar.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\PropertiesWnd.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\Splash.cpp" />
+    <ClCompile Include="src\cpp\HPetriSim\StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\TitleTip.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54F9FA4B-820B-49DA-8ECA-E475256B392B}</ProjectGuid>
+    <RootNamespace>HPetriSim</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27924.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin/HPetriSim.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc90.pdb</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\src\cpp\3rd-party\;.\src\cpp\HPetriSim\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <EntryPointSymbol />
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\src\cpp\3rd-party\;.\src\cpp\HPetriSim\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="HPetriSim.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

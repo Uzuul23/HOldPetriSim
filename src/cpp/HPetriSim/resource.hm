@@ -1,0 +1,5 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by h_petri_sym.rc
+//
+#define HIDC_GRIDVISIBLE_CHECK          0x806e0406    // IDD_PROPPAGE2
+#define HIDC_NETOBJECTS_CHECK           0x806e040e    // IDD_PROPPAGE2

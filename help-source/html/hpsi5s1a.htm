@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Transition</title>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<h2><a name="transition"></a>Transition</h2>
+<p>
+Select the tool “Transition” from the “Tools” menu. <img src="../images/tranbu.gif" border=0></p>
+<p>
+This active graphical object represents a transition in a Petri Net. The enabling time for a transition can be defined. After the enabling time has elapsed, the transition will be switched instantaneously. Various functions are provided to represent the enabling time behavior of the transition. It can be chosen among: Immediate, Deterministic, Exponential Distribution and Uniform Distribution.</p>
+<p>
+It has to be taken into account that the required random numbers are provided by a random number generator.</p>
+<table>
+<tr valign=top>
+<td>
+Width1Width3Width2574 Width3Width1987 Width3Width4651 <b>Property</b></td>
+<td>
+<b>Input Type</b></td>
+<td>
+<b>Possible ValuesWidth1Width3Width2574 Width3Width1987 Width3Width4651 </b></td>
+</tr>
+<tr valign=top>
+<td>
+Width1Width3Width2574 Width3Width1987 Width3Width4651 Name</td>
+<td>
+Direct Input</td>
+<td>
+Any StringWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Size</td>
+<td>
+Drop Down</td>
+<td>
+Very Small, Small, Normal, Big, Very BigWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Show Name</td>
+<td>
+Boolean</td>
+<td>
+TRUE, FALSEWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Show Delay</td>
+<td>
+Boolean</td>
+<td>
+TRUE, FALSEWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Time Model</td>
+<td>
+Drop Down</td>
+<td>
+Immediate, Deterministic, Exponential Distribution, Uniform DistributionWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Initial Delay</td>
+<td>
+Direct Input</td>
+<td>
+0 to 16MWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Range Delay</td>
+<td>
+Direct Input</td>
+<td>
+0 to 16MWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Current Delay</td>
+<td>
+Direct Input</td>
+<td>
+0 to 16MWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+<tr valign=top>
+<td>
+Width1Width3Width2574 Width3Width1987 Width3Width4651 Tokens Fired</td>
+<td>
+Direct Input</td>
+<td>
+0 to 16MWidth1Width3Width2574 Width3Width1987 Width3Width4651 </td>
+</tr>
+</table><br>
+<p>
+The time mode Deterministic uses the property Initial Delay as defined enabling time.</p>
+<p>
+The time mode Exponential Distribution uses the property Initial Delay as mean value for the distribution function of the enabling time.</p>
+<p>
+The time mode Uniform Distribution uses the property Initial Delay as lower bound and the property Range Delay as upper bound (in absolute values) for the distribution function of the enabling time.</p>
+</BODY>
+</HTML>

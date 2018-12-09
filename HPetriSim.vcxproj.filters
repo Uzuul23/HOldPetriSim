@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3d8a20d3-073a-4a75-885b-51f3fd4a0896}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{14dd396f-6d85-4984-a7c3-bcd59d746f98}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c84a386b-7fa7-48f2-9b16-d369aec43831}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cpp\3rd-party\CDIB.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\3rd-party\MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\DocPropertyPageA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\DocPropertySheetA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HDrawObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HErrorFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HFontDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HLabelDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HLineBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HPositionDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HResHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HSimToolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HSymDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HSymStateFormView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HTextDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HTransitionDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\HZoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\IniSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\LimitDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\OutputWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\PetriSim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\PetriSimDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\PetriSimView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\PreviewWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\ProgDlg1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\ProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\PropertiesWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\Splash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\HPetriSim\TitleTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpp\3rd-party\mfxWhlPan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\cpp\HPetriSim\HPetriSim.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\cpp\HPetriSim\HPetriSim.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\autopan.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\editbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\editbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\HPetriSim.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\HPetriSimDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\idr_hpst.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\place_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\place_26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\simbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\simbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\Splsh16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\edit\place_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\edit\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\edit\place_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\edit\place_35.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\cpp\HPetriSim\res\edit\place_50.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\cpp\HPetriSim\res\cur00001.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\cur00002.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\cur00003.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\cur00004.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\cur00005.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\cur00006.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\line_cur.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\pan.up.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\pan_all.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\pan_down.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\pan_left.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\pan_right.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\position.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\transiti.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cpp\HPetriSim\res\hpetrisim.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpp\HPetriSim\ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\DocPropertyPageA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\DocPropertySheetA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HConnector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HDrawObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HErrorFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HFontDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HLabelDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HLineBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HNetMember.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HPetriMember.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HPetriModul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HPolyLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HPositionDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HResHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HSimToolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HSymDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HSymStateFormView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HTextDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HTransitionDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\HZoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\IniSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\LimitDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\OutputWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\PetriSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\PetriSimDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\PetriSimView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\PreviewWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\ProgDlg1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\ProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\PropertiesWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\Splash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HPetriSim\TitleTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\3rd-party\CDIB.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\3rd-party\mfxWhlPan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

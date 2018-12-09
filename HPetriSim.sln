@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HPetriSim", "HPetriSim.vcxproj", "{54F9FA4B-820B-49DA-8ECA-E475256B392B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F9FA4B-820B-49DA-8ECA-E475256B392B}.Debug|x86.ActiveCfg = Debug|Win32
+		{54F9FA4B-820B-49DA-8ECA-E475256B392B}.Debug|x86.Build.0 = Debug|Win32
+		{54F9FA4B-820B-49DA-8ECA-E475256B392B}.Release|x86.ActiveCfg = Release|Win32
+		{54F9FA4B-820B-49DA-8ECA-E475256B392B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D96455E-801A-4296-96EA-8B9DD295B01B}
+	EndGlobalSection
+EndGlobal

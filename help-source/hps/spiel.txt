@@ -1,0 +1,22 @@
+// Transition Name Vector:
+(T0 ;T1 ;T2 ;)
+// Position Name Vector:
+(Speicher;Gewonnen;Einsatz;)
+// Inzidenz Matrix:
+{
+( -1   0   2 )
+( -1   1   1 )
+(  1  -1  -1 )
+}
+// Marking Vector:
+(3 0 1 )
+// Arc Type Matrix:
+// Code:0 = None; 1 = Normal; 2 = Inhibitor; 3 = Test 
+{
+(1 0 1 )
+(1 1 1 )
+(1 1 1 )
+}
+// Transition Time Model Vektor:
+// Code:1 = Immidiate; 2= Delay;3 = Exponential; 4 = Equal Distibution;
+(1 ;1 ;1 ;

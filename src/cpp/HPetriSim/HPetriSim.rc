@@ -1,0 +1,1005 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""res\\hpetrisim.rc2""  // non-App Studio edited resources\r\n"
+    "\r\n"
+    "#include ""afxres.rc""  // Standard components\r\n"
+    "#include ""afxprint.rc""  // printing/print preview resources\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxribbon.rc"" // ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#include ""afxolecl.rc""  // OLE container re\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\HPetriSim.ico"
+
+IDR_HPSTYPE             ICON                    "res\\HPetriSim.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SPLASH              BITMAP                  "Splsh16.bmp"
+
+IDB_AUTOPAN             BITMAP                  "res\\autopan.bmp"
+
+IDB_PLACE_25            BITMAP                  "res\\edit\\place_0.bmp"
+
+IDB_PLACE_15            BITMAP                  "res\\edit\\bmp00001.bmp"
+
+IDB_PLACE_20            BITMAP                  "res\\edit\\place_20.bmp"
+
+IDB_PLACE_35            BITMAP                  "res\\edit\\place_35.bmp"
+
+IDB_PLACE_50            BITMAP                  "res\\edit\\place_50.bmp"
+
+IDR_MAINFRAME           BITMAP                  "res\\toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\toolbar256.bmp"
+
+IDR_EDITBAR             BITMAP                  "res\\editbar.bmp"
+
+IDR_EDITBAR_256         BITMAP                  "res\\editbar256.bmp"
+
+IDR_SIMBAR              BITMAP                  "res\\simbar.bmp"
+
+IDR_SIMBAR_256          BITMAP                  "res\\simbar256.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_REMOVE_SELECTED
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    SEPARATOR
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_REMOVE_SELECTED
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_EDITBAR TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_SELECT_MODE
+    BUTTON      ID_PAN_MODE
+    SEPARATOR
+    BUTTON      ID_LINE_MODE
+    BUTTON      ID_MULTI_LINE_MODE
+    BUTTON      ID_RECT_MODE
+    BUTTON      ID_TEXT_MODE
+    SEPARATOR
+    BUTTON      ID_POSITION_MODE
+    BUTTON      ID_TRANSITION_MODE
+    BUTTON      ID_CONNECTOR_MODE
+    SEPARATOR
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_ZOOM_PORT
+    BUTTON      ID_ZOOM_NORM
+    SEPARATOR
+    BUTTON      ID_CONTEXT_POPUP
+    BUTTON      ID_CONTEXT_PUSHBACK
+    BUTTON      ID_GROUP
+    BUTTON      ID_UNGROUP
+END
+
+IDR_EDITBAR_256 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_SELECT_MODE
+    BUTTON      ID_PAN_MODE
+    SEPARATOR
+    BUTTON      ID_LINE_MODE
+    BUTTON      ID_MULTI_LINE_MODE
+    BUTTON      ID_RECT_MODE
+    BUTTON      ID_TEXT_MODE
+    SEPARATOR
+    BUTTON      ID_POSITION_MODE
+    BUTTON      ID_TRANSITION_MODE
+    BUTTON      ID_CONNECTOR_MODE
+    SEPARATOR
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_ZOOM_PORT
+    BUTTON      ID_ZOOM_NORM
+    SEPARATOR
+    BUTTON      ID_CONTEXT_POPUP
+    BUTTON      ID_CONTEXT_PUSHBACK
+    BUTTON      ID_GROUP
+    BUTTON      ID_UNGROUP
+END
+
+IDR_SIMBAR TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_ENABLE_WRITEOUTPUTFILE
+    SEPARATOR
+    BUTTON      ID_SYM_RESET
+    BUTTON      ID_SYM_STOP
+    BUTTON      ID_PAUSE_MODE
+    BUTTON      ID_SYM_SINGLESTEP
+    BUTTON      ID_SYM_RUNNORMAL
+    BUTTON      ID_SYM_RUNFAST
+END
+
+IDR_SIMBAR_256 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_ENABLE_WRITEOUTPUTFILE
+    SEPARATOR
+    BUTTON      ID_SYM_RESET
+    BUTTON      ID_SYM_STOP
+    BUTTON      ID_PAUSE_MODE
+    BUTTON      ID_SYM_SINGLESTEP
+    BUTTON      ID_SYM_RUNNORMAL
+    BUTTON      ID_SYM_RUNFAST
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tStrg+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tStrg+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Printer..",                  ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Letzte Datei",                ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_APP_EXIT
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Help",                       ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "About HPetriSym...",          ID_APP_ABOUT
+    END
+END
+
+IDR_HPSTYPE MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "&Open",                       ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "S&ave",                       ID_FILE_SAVE
+        MENUITEM "&Save as",                    ID_FILE_SAVE_AS
+        POPUP "&Export"
+        BEGIN
+            MENUITEM "&Document",                   ID_STORE_SCREEN
+            MENUITEM "&View",                       ID_STORE_CLIENT
+            MENUITEM "&Net",                        ID_FILE_EXPORT_NET
+            MENUITEM "&File",                       ID_FILE_EXPORT_INTERCHANGE
+        END
+        POPUP "Import"
+        BEGIN
+            MENUITEM "&File",                       ID_FILE_IMPORT_INTERCHANGE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Print",                      ID_FILE_PRINT
+        MENUITEM "Pane &View",                  ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rinter Setup",              ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Last File",                   ID_FILE_MRU_FILE1, GRAYED
+    END
+    POPUP "E&dit"
+    BEGIN
+        MENUITEM "&Delete\tDel",                ID_REMOVE_SELECTED
+        MENUITEM "&Cut\tStrg+X",                ID_EDIT_CUT
+        MENUITEM "C&opy\tStrg+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tStrg+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Group",                      ID_GROUP
+        MENUITEM "U&ngroup",                    ID_UNGROUP
+        MENUITEM SEPARATOR
+        MENUITEM "Pop&up",                      ID_CONTEXT_POPUP
+        MENUITEM "Pu&shback",                   ID_CONTEXT_PUSHBACK
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars and Docking Windows"
+        BEGIN
+            MENUITEM "<dummy>",                     ID_VIEW_TOOLBAR
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Show &Label",                 ID_EDITOR_SHOWLABEL
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Overlapped",                 ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Symbols",                    ID_WINDOW_ARRANGE
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Select",                     ID_SELECT_MODE
+        MENUITEM "Pa&n",                        ID_PAN_MODE
+        MENUITEM "&Line",                       ID_LINE_MODE
+        MENUITEM "&Polygon",                    ID_MULTI_LINE_MODE
+        MENUITEM "&Rectangle",                  ID_RECT_MODE
+        MENUITEM "&Text",                       ID_TEXT_MODE
+        MENUITEM "Plac&e",                      ID_POSITION_MODE
+        MENUITEM "Tr&ansition",                 ID_TRANSITION_MODE
+        MENUITEM "Ar&c",                        ID_CONNECTOR_MODE
+    END
+    POPUP "&Zoom"
+    BEGIN
+        MENUITEM "Zoom &In",                    ID_ZOOM_IN
+        MENUITEM "Zoom &Out",                   ID_ZOOM_OUT
+        MENUITEM "&Zoom 1:1",                   ID_ZOOM_NORM
+        MENUITEM "Zoom &Port",                  ID_ZOOM_PORT
+    END
+    POPUP "&Simulation"
+    BEGIN
+        MENUITEM "&Sim Mode",                   ID_SYM_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "S&ingle Step",                ID_SYM_SINGLESTEP
+        MENUITEM "&Run Normal",                 ID_SYM_RUNNORMAL
+        MENUITEM "R&un Fast",                   ID_SYM_RUNFAST
+        MENUITEM "P&ause",                      ID_PAUSE_MODE
+        MENUITEM "I&ncrease Speed\tNUM+",       ID_SYM_INCREASESPEED
+        MENUITEM "&Decrease Speed\tNUM-",       ID_SYM_DECREASESPEED
+        MENUITEM "&Write Output File",          ID_ENABLE_WRITEOUTPUTFILE
+        MENUITEM SEPARATOR
+        MENUITEM "R&eset",                      ID_SYM_RESET
+    END
+    POPUP "&Extra"
+    BEGIN
+        MENUITEM "&Properties",                 ID_EDITOR_PROPERTIES
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Help",                       ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "About HPetriSym...",          ID_APP_ABOUT
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Erase",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide",                       ID_VIEW_OUTPUTWND
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_ADD,         ID_SYM_INCREASESPEED,   VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_SUBTRACT,    ID_SYM_DECREASESPEED,   VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 180, 242
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About HPetriSim"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,122,221,51,14,WS_GROUP
+    GROUPBOX        "Memory Usage",IDC_STATIC,7,138,166,55
+    LTEXT           "mailto:",IDC_HYPERLINK,16,126,147,8
+    EDITTEXT        IDC_EDIT_MEM,13,149,155,38,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_ABOUT,7,7,166,113,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "123-4567890-123",IDC_STATIC_SERIAL,60,206,61,9
+    GROUPBOX        "License Number",IDC_STATIC,7,196,166,22
+END
+
+IDD_SYM_LOG_DIALOG DIALOG 0, 0, 114, 146
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SYM_LOG_EDIT,13,17,90,54,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL
+    GROUPBOX        "Log",IDC_STATIC,7,7,98,70
+    GROUPBOX        "Scan Time",IDC_STATIC,7,84,98,26
+    EDITTEXT        IDC_SCAN_TIME_EDIT,17,95,50,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER
+    LTEXT           "mSec.",IDC_STATIC,73,95,21,8
+    GROUPBOX        "Loops per Step",IDC_STATIC,7,113,98,26
+    EDITTEXT        IDC_LOOPS_EDIT,18,125,50,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER
+END
+
+IDD_TRANSITION_DIALOG DIALOG 0, 0, 183, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Transition"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Aktivate",IDC_STATIC,6,3,170,181
+    CONTROL         "On",IDC_INMEDIATE_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,19,23,25,10
+    CONTROL         "Delay On",IDC_DELAY_ON_RADIO,"Button",BS_AUTORADIOBUTTON,19,49,74,13
+    CONTROL         "Delay Off",IDC_DELAY_OFF_RADIO,"Button",BS_AUTORADIOBUTTON,19,66,74,13
+    CONTROL         "Delay On",IDC_RAND_ON_RADIO,"Button",BS_AUTORADIOBUTTON,19,96,74,13
+    CONTROL         "Delay Off",IDC_RAND_OFF_RADIO,"Button",BS_AUTORADIOBUTTON,19,117,74,13
+    LTEXT           "Static",IDC_STATIC,100,32,47,13,SS_CENTERIMAGE | NOT WS_GROUP
+    EDITTEXT        IDC_DELAY_ON_EDIT,107,49,27,13,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    EDITTEXT        IDC_DELAY_OFF_EDIT,107,66,27,13,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Random",IDC_STATIC,99,83,47,13,SS_CENTERIMAGE | NOT WS_GROUP
+    EDITTEXT        IDC_RAND_ON_EDIT,107,96,27,13,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    EDITTEXT        IDC_RAND_OFF_EDIT,107,117,27,13,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "sec.",IDC_STATIC,146,49,14,13,SS_CENTERIMAGE | NOT WS_GROUP
+    LTEXT           "sec.",IDC_STATIC,146,66,14,13,SS_CENTERIMAGE | NOT WS_GROUP
+    LTEXT           "sec.",IDC_STATIC,146,96,14,13,SS_CENTERIMAGE | NOT WS_GROUP
+    LTEXT           "sec.",IDC_STATIC,146,117,14,13,SS_CENTERIMAGE | NOT WS_GROUP
+    GROUPBOX        "",IDC_STATIC,6,136,170,48
+    CONTROL         "Auto restart",IDC_AUTO_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,148,52,10
+    CONTROL         "Only run if enabled",IDC_TIMER_STOP_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,164,75,10
+    DEFPUSHBUTTON   "OK",IDOK,33,188,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,98,188,50,14
+END
+
+IDD_SYM_DIALOG DIALOG 0, 0, 131, 161
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Simulation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,140,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,74,140,50,14
+    GROUPBOX        "Conflict",IDC_STATIC,7,3,117,63
+    CONTROL         "Ignore",IDC_IGNORE_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,16,17,36,10
+    CONTROL         "First Transition",IDC_FIRST_RADIO,"Button",BS_AUTORADIOBUTTON,16,30,61,10
+    CONTROL         "Random Transition",IDC_RAND_RADIO,"Button",BS_AUTORADIOBUTTON,16,43,75,10
+END
+
+IDD_TEXT_DIALOG DIALOG 0, 0, 181, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Text"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,27,131,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,94,131,50,14
+    EDITTEXT        IDC_TEXT_EDIT,7,7,167,118,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_PROPPAGE1 DIALOG 0, 0, 250, 125
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "View",IDC_STATIC,8,3,108,114
+    EDITTEXT        IDC_HOR_EDIT,18,19,53,11,ES_NUMBER
+    LTEXT           "H. /Pixel",IDC_STATIC,78,34,28,8
+    EDITTEXT        IDC_VER_EDIT,18,32,53,11,ES_NUMBER
+    LTEXT           "V. /Pixel",IDC_STATIC,78,20,28,8
+    PUSHBUTTON      "...",IDC_BUTTON_BACKCOLOR,19,48,24,14
+    LTEXT           "Background Color",IDC_STATIC,50,51,58,8
+    GROUPBOX        "Paranoia",IDC_STATIC,136,3,108,114
+    CONTROL         "Popup Message Window",IDC_CHECK_POPMESSAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,142,20,95,10
+    CONTROL         "Popup Project Explorer",IDC_CHECK_POPEXPLORER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,142,35,88,10
+END
+
+IDD_PROPPAGE2 DIALOGEX 0, 0, 250, 125
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Grid"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Gridpoints",IDC_STATIC,7,17,74,52
+    CONTROL         "Visible",IDC_GRIDVISIBLE_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,32,36,10,0,HIDC_GRIDVISIBLE_CHECK
+    EDITTEXT        IDC_GRID_EDIT,18,51,20,12,ES_NUMBER
+    CONTROL         "Spin1",IDC_GRID_SPIN,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,37,50,10,14
+    GROUPBOX        "Align to Grid",IDC_STATIC,103,17,74,52
+    CONTROL         "Net Objects",IDC_NETOBJECTS_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,31,53,10,0,HIDC_NETOBJECTS_CHECK
+    CONTROL         "Draw Objects",IDC_DRAWOBJECTS_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,50,59,10
+END
+
+IDD_LABEL_DIALOG DIALOG 0, 0, 181, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Label"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,26,26,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,26,50,14
+    EDITTEXT        IDC_TEXT_EDIT,7,7,167,13
+END
+
+IDD_PROPPAGE4 DIALOG 0, 0, 250, 133
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Simulation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Sample Time",IDC_STATIC,7,2,236,33
+    EDITTEXT        IDC_EDIT_SAMPLETIME,21,15,65,14,ES_AUTOHSCROLL
+    LTEXT           "ms",IDC_STATIC,93,18,10,8
+    GROUPBOX        "Stop Running",IDC_STATIC,7,36,236,53
+    LTEXT           "SimulationTime",IDC_STATIC,52,51,48,8
+    LTEXT           "Step Counter",IDC_STATIC,52,67,42,8
+    EDITTEXT        IDC_EDIT_STOP_SIMULATIONTIME,113,48,65,14,ES_AUTOHSCROLL
+    LTEXT           "ms",IDC_STATIC,183,51,10,8
+    EDITTEXT        IDC_EDIT_STOP_SIMULATIONTIME2,113,65,65,14,ES_AUTOHSCROLL
+    GROUPBOX        "Output File",IDC_STATIC,7,91,235,33
+    EDITTEXT        IDC_EDIT_OUTPUT_FILE,20,104,189,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_FILEDIALOG,214,104,22,13
+END
+
+IDD_PROPPAGE5 DIALOG 0, 0, 250, 125
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Defaults"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "coming soon",IDC_STATIC,63,37,41,8
+END
+
+CG_IDD_PROGRESS DIALOG 0, 0, 186, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Abbrechen",IDCANCEL,67,58,50,14
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER,15,34,154,13
+    LTEXT           " 0 %",CG_IDC_PROGDLG_PERCENT,85,23,18,8
+    CTEXT           "static",CG_IDC_PROGDLG_STATUS,13,6,158,10
+END
+
+IDD_LIMIT_DIALOG DIALOG 0, 0, 202, 127
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HPSim"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,145,106,50,14
+    LTEXT           "mailto:",IDC_HYPERLINK,13,106,123,8
+    EDITTEXT        IDC_EDIT_LIMITTEXT,7,7,188,91,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "Free Version"
+            VALUE "CompanyName", "Henryk Anschuetz"
+            VALUE "FileDescription", "HPSim"
+            VALUE "FileVersion", "1, 0, 0, 2"
+            VALUE "InternalName", "old Petri Sim"
+            VALUE "LegalCopyright", "Copyright (C) 1998 - 2001 Henryk Anschuetz"
+            VALUE "OriginalFilename", "HPetriSim.EXE"
+            VALUE "ProductName", "HPetriSim  Application"
+            VALUE "ProductVersion", "1, 1, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_SYM_LOG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_TRANSITION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_SYM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 124
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_TEXT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_PROPPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_PROPPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_LABEL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_PROPPAGE4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_PROPPAGE5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    CG_IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_LIMIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_POSITION            CURSOR                  "res\\position.cur"
+
+IDC_TRANSITION          CURSOR                  "res\\transiti.cur"
+
+IDC_POLYGON             CURSOR                  "res\\cur00001.cur"
+
+IDC_CONNECTOR           CURSOR                  "res\\cur00002.cur"
+
+IDC_LINE                CURSOR                  "res\\line_cur.cur"
+
+IDC_TEXT                CURSOR                  "res\\cur00003.cur"
+
+IDC_RECT                CURSOR                  "res\\cur00004.cur"
+
+IDC_ZOOMIN              CURSOR                  "res\\cur00005.cur"
+
+IDC_ZOOMOUT             CURSOR                  "res\\cur00006.cur"
+
+IDC_PAN_RIGHT           CURSOR                  "res\\pan_right.cur"
+
+IDC_PAN_ALL             CURSOR                  "res\\pan_all.cur"
+
+IDC_PAN_DOWN            CURSOR                  "res\\pan_down.cur"
+
+IDC_PAN_LEFT            CURSOR                  "res\\pan_left.cur"
+
+IDC_PAN_UP              CURSOR                  "res\\pan.up.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "HPSim"
+    IDR_HPSTYPE             "Editor\nHPS\nHPS\nFileTyp HPSim   (*.hps)\n.hps\nHPSim.Document\nHpsDocument"
+    IDR_EDITBAR             "Toggle the Editbar on/off\nToggle Editbar"
+    ID_INDICATOR_COUNT      "C. 999999/9999"
+    ID_INDICATOR_MOUSEPOS   "P. 0000, 0000"
+    ID_INDICATOR_ZOOMSCALE  "Z. 100%"
+    ID_SLIDER_SIMSPEED      "Set the Simulation Speed in Run Mode\nSpeed"
+    IDR_SYMBAR              "Toggle the Simulation Bar on/off\nToggle Simulation Bar"
+    ID_SIM_RESET            "Reset the Simulation\nReset"
+    IDR_SYM_VIEW            "This is the first view.\n\n\n\n\n\n"
+    ID_PAUSE_MODE           "Stop running  in  Pause Mode\nPause"
+    ID_SPEED_MODE           "Allow the Simulator to run with fast speed\nFast"
+    IDS_FIRMA               "H. Anschuetz Software :-)"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "HPSim 1.0"
+    AFX_IDS_IDLEMESSAGE     "Press F1 for Help"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "ER"
+    ID_INDICATOR_CAPS       "UF"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "RF"
+    ID_INDICATOR_OVR        "ÜB"
+    ID_INDICATOR_REC        "MA"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "a new Document\nNew"
+    ID_FILE_OPEN            "Open a file\nOpen"
+    ID_FILE_CLOSE           "Close the aktive doc.\nClose"
+    ID_FILE_SAVE            "Save the aktive doc.\nSave"
+    ID_FILE_SAVE_AS         "Save the doc under a new name.\nSave under"
+    ID_FILE_PAGE_SETUP      "Change the page print properties.\nPage setup"
+    ID_FILE_PRINT_SETUP     "Printer Setup\nPrinter Setup"
+    ID_FILE_PRINT           "Print the aktive doc.\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Page view.\nPage view"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Show information, copyright and Version from HPSim \nAbout"
+    ID_APP_EXIT             "Close the Aplication\nClose"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this Document"
+    ID_FILE_MRU_FILE2       "Open this Document"
+    ID_FILE_MRU_FILE3       "Open this Document"
+    ID_FILE_MRU_FILE4       "Open this Document"
+    ID_FILE_MRU_FILE5       "Open this Document"
+    ID_FILE_MRU_FILE6       "Open this Document"
+    ID_FILE_MRU_FILE7       "Open this Document"
+    ID_FILE_MRU_FILE8       "Open this Document"
+    ID_FILE_MRU_FILE9       "Open this Document"
+    ID_FILE_MRU_FILE10      "Open this Document"
+    ID_FILE_MRU_FILE11      "Open this Document"
+    ID_FILE_MRU_FILE12      "Open this Document"
+    ID_FILE_MRU_FILE13      "Open this Document"
+    ID_FILE_MRU_FILE14      "Open this Document"
+    ID_FILE_MRU_FILE15      "Open this Document"
+    ID_FILE_MRU_FILE16      "Open this Document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Next pane"
+    ID_PREV_PANE            "Previus pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "Open a new window for the aktive doc\nNew window"
+    ID_WINDOW_ARRANGE       "Arrange all windows symbols\nArrange symbols "
+    ID_WINDOW_CASCADE       "Cascade all windows\nCascade"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase mark.\nerase"
+    ID_EDIT_CLEAR_ALL       "Erase all.\nErase all"
+    ID_EDIT_COPY            "Copy marking area to theclipbord\nCopy"
+    ID_EDIT_CUT             "Cut marking area and copy this to clipbord"
+    ID_EDIT_PASTE           "Insert the clipbord in this doc\nInsert"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change window size"
+    AFX_IDS_SCMOVE          "Change window position"
+    AFX_IDS_SCMINIMIZE      "Minimize the window to a symbol"
+    AFX_IDS_SCMAXIMIZE      "Maximize the window "
+    AFX_IDS_SCNEXTWINDOW    "Next window"
+    AFX_IDS_SCPREVWINDOW    "Previus window"
+    AFX_IDS_SCCLOSE         "Close aktiv doc"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Normalize window size"
+    AFX_IDS_SCTASKLIST      "Task list"
+    AFX_IDS_MDICHILD        "Window"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close pane view.\nClose pane view"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LIMIT_TEXT          "Count of Objects\r\nin a Document : 64k."
+    IDS_ABOUT_TEXT          "HPSim Version: 1.1 (64k)\r\n\r\nDo NOT distribute this Version!\r\nEither commercial use or distribution or \r\ncompilation in any sense of this software\r\nor parts of it is NOT permitted without the\r\nprior written consent of the author.\r\nThe software is provided 'as is'. \r\nNo warranty is granted to mentioned\r\nfeatures. The author disclaims any liability\r\nfor damages caused to man and/or machine by\r\nthe use of this software. The installation\r\nand the use of this software is on the\r\nuser’s risk.\r\n\r\nPlease feel free to submit suggestions for \r\nimprovement and/or bug-reports to the author\r\nby email. As well as donations are welcome\r\nif you found this software to any good -\r\nto support the authorkeeping on the work\r\non this project.\r\n\r\nCopyright (C) 1999 - 2001 Henryk Anschuetz\r\n\r\ngrateful acknowledgement goes to:\r\nRené Höpfner for English translation\r\n"
+    IDS_MEM_TEXT            "Phys.Memory\t\t%d KB\r\nMemory Load\t\t%d %%\r\nPhys.Memory Free\t\t%d KB\r\nPage File\t\t\t%d KB\r\nPage File Free\t\t%d KB\r\nTotal Virtual Mem\t\t%d KB\r\nTotal Virtual Mem Free\t%d KB"
+    IDS_EMAIL               "mailto:henryk.a@t-online.de"
+    IDS_ABOUT_LIMIT         "\r\nThis unlimited Version is licensed for:\r\n"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RECT_MODE            "Set the rectangle drawing mode\nRectangle"
+    ID_LINE_MODE            "Set the line drawing mode\nLine"
+    ID_SELECT_MODE          "Set to select mode\nSelect"
+    ID_POSITION_MODE        "Set the place drawing mode\nPlace"
+    ID_TRANSITION_MODE      "Set the Transition drawing mode\nTransition"
+    ID_MULTI_LINE_MODE      "Set the Polygon drawing mode\nPolygon"
+    ID_CONNECTOR_MODE       "Set the Arc drawing mode\nArc"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TEXT_MODE            "Set the text drawing mode\nText"
+    ID_ZOOM_IN              "Set zoom in mode\nZoom In"
+    ID_VIEW_SYM_OUTPUT      "View 2\nView 2."
+    ID_ZOOM_NORM            "Set zoom ratio to 1.0\nZoom 1.0"
+    ID_ZOOM_OUT             "Set zoom out mode\nZoom Out"
+    ID_ZOOM_PORT            "Set the zoom ratio to the viewport extend\nZoom to view"
+END
+
+STRINGTABLE
+BEGIN
+    CG_IDS_CANNOT_OPEN_CLIPBOARD "Error on Clipbord"
+    CG_IDS_CANNOT_GET_CLIPBOARD_DATA "Error on Clipbord"
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "Drive:%c:\\   %lu KB Free"
+    CG_IDS_DISK_SPACE_UNAVAIL "Unavailable"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RECT_FILLCOLOR       "Change the fillcolor\nFillcolor"
+    ID_CONTEXT_BORDERCOLOR  "Change the bordercolor\nBordercolor"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CONTEXT_POPUP        "Popup a selected Item\nPopup"
+    ID_CONTEXT_PUSHBACK     "Pushback a selected Item\nPushback"
+    ID_GROUP                "Group all selected items\nGroup"
+    ID_UNGROUP              "Ungroup a selected group item\nUngroup"
+    ID_EDITOR_EIGENSCHAFTEN "Call the editors properties\nProperties"
+    ID_EDITOR_PROPERTIES    "Call the properties dialog\nProperties"
+    ID_EDITOR_SHOWLABEL     "Toggle labels visibility on/off \n Labels"
+    ID_SYM_SINGLESTEP       "Allow the Simulator to make a Step\nStep"
+    ID_SYM_RUNNORMAL        "Set the Simulator Normal Speed with Tokengame Animation\nRun"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PROPSHT_CAPTION1    "Editor Properties"
+    CG_IDD_MYDIALOGBAR      "Toggle the Project Explorer on/off\nToggle Project Explorer"
+    CG_IDS_PROGRESS_CAPTION "Working"
+    ID_INDICATOR_STEPTIME   "S. 999 /999 ms"
+    ID_INDICATOR_SIMSTATUS  "Running..."
+    ID_INDICATOR_SIMTIME    "T.16000000ms"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_HPS_OUTPUT          "Output\n\n\n\n\n\n"
+    IDR_MAINBAR             "Toggle the Mainbar on/off\nToggle Mainbar"
+    IDS_ERROR_FILE_OPEN     "Error: Can not open File"
+    IDS_ERROR_INIT_NET      "Can't init net cause: Structure defectiv"
+    IDS_ERROR_MEMORY        "Error: Insufficent Memory!"
+    IDS_ERROR_CONN_D        "Error: connection already exist!"
+    IDS_ERROR_CONN_A        "Error: start point is not a Transition or a Place!"
+    IDS_ERROR_CONN_B        "Error: end point is not a Transition or a Place!"
+    IDS_ERROR_CONN_C        "Error: start point and end point are the same typ"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SYM_RUNFAST          "Set the Simulator max. Speed\nRun Fast"
+    ID_SYM_STOP             "Toggle the Simulator on/off\nON\\OFF"
+    ID_SYM_RESET            "Reset the Simulator to Start Value\nReset"
+    ID_SYM_INCREASESPEED    "Increase the Speed in Normal Run\nIncrease"
+    ID_SYM_DECREASESPEED    "Decrease the Speed in Normal Run\nDecrease"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_STEPCOUNT  "SC. 16000000"
+    IDS_TOOLBAR_STANDARD    "Main Toolbar"
+    IDS_TOOLBAR_CUSTOMIZE   "Customize"
+    IDS_TOOLBAR_EDIT        "Tools Toolbar"
+    IDS_TOOLBAR_SIM         "Simulation Toolbar"
+    IDS_OUTPUT_WND          "Output Window"
+    IDS_PROPERTIES_WND      "Properties Window"
+    IDS_WINDOWS_MANAGER     "&Windows..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_STORE_SCREEN         "Save the actual Document as Bitmap File\nSave Bitmap"
+    ID_STORE_CLIENT         "Save the actual View as Bitmap File\nSave Bitmap"
+END
+
+STRINGTABLE
+BEGIN
+    ID_ENABLE_WRITEOUTPUTFILE 
+                            "Toggle Write to Output File on/off\nOutput File"
+    ID_FILE_EXPORT_NET      "Save the actual Petri Net as Text\nSave Net Text"
+    ID_FILE_EXPORT_INTERCHANGE 
+                            "Save the actual Document as interchange File\nSave interchange File"
+    ID_FILE_IMPORT_INTERCHANGE 
+                            "Load a Document as interchange File\nLoad interchange File"
+    ID_REMOVE_SELECTED      "Delete all selected Items\nDelete"
+    ID_PAN_MODE             "Set the Pan Mode\nPan"
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\hpetrisim.rc2"  // non-App Studio edited resources
+
+#include "afxres.rc"  // Standard components
+#include "afxprint.rc"  // printing/print preview resources
+#if !defined(_AFXDLL)
+#include "afxribbon.rc" // ribbon and control bar resources
+#endif
+#include "afxolecl.rc"  // OLE container re
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

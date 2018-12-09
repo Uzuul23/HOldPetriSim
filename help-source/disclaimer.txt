@@ -1,0 +1,33 @@
+HPSim Version: 1.1
+
+This Software can be freely distributed
+for the purpose of research and education.
+Either a commercial use or distribution or 
+compilation in any sense of this software
+or parts of it is NOT permitted without the
+prior written consent of the author.
+The software is provided “as is”. 
+No warranty is granted to mentioned
+features. The author disclaims any liability
+for damages caused to man and/or machine by
+the use of this software. The installation
+and the use of this software is on the
+user’s risk.
+
+Please feel free to submit suggestions for 
+improvement and/or bug-reports to the author
+by email. As well as donations are welcome
+– if you found this software to any good -
+to support the authorkeeping on the work
+on this project.
+
+Copyright (C) 1999 - 2001 Henryk Anschuetz
+
+grateful acknowledgement goes to:
+René Höpfner for English translation
+
+Limitations for this Version: 
+This free Version of HPSim limits only the
+count of Objects in a Document to 350.
+If this Limit is reached, please contact the
+Author for a other Version
